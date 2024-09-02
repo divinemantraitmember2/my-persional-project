@@ -1,0 +1,31 @@
+.admin_header{
+    z-index: 1028;
+    width:100% ;
+    background-color: #797a7b;
+    
+}
+
+.admin_header .admin_togale_site{
+    height: 100%;
+    width: 100%;
+    background-color: #f7f9fa;
+
+}
+.sideBarMenu{
+    background-color: #1f262d;
+    height: 100vh; 
+}
+.sideBarMenu .nav-link{
+    color: #f3f1f1;
+    font-weight: 600;
+    border-bottom: 1px solid #868686;
+}
+.main_adminHome{
+    position: absolute;
+    top: 68px;
+}
+.admin_footer{
+    background-color: #1f262d;
+    padding: 20px;  
+}
+

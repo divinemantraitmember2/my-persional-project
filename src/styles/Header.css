@@ -1,0 +1,184 @@
+
+.main-header {
+    transition: .2s all ease;
+    /* position: fixed; */
+   top: 10;
+  width: 100%;
+  /* z-index: 99; */
+}
+.top-band{
+    background-color: #1A2B48;
+ /* background-color:#91b5e5 ; */
+ padding: 0px 0px;
+}
+
+
+.top-band  .top-social {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    float: right;
+}
+
+.top-band .top-social .nav-item {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar{
+    /* background-color: #d71920; */
+    background-color: #f29808;
+}
+.navbar ul li a{
+    color: #fff;
+    font-weight: 600;
+}
+ .navbar ul li a:hover{
+    color: #fff;
+
+}
+
+.footer_main{
+    background-color: #1A2B48;
+}
+
+.footer_main .footer-text{
+    color: #fff;
+}
+.footer_main .hot_menu_links h5{
+    font-weight: bold;
+   }
+.footer_main .hot_menu_links ul li{
+list-style: none;
+}
+.footer_main .hot_menu_links ul li a{
+     color: #fff;
+     font-size: 18px;
+     padding: 5px;
+     margin-top: 8px;
+    text-decoration: none;
+    }
+    .footer_main .hot_menu_links ul li a:hover{
+        background-color: black;
+
+    }
+
+    .banner_main{
+background: linear-gradient(0deg, rgb(251, 214, 158) 0%, rgb(252, 245, 229) 50%);
+
+    }
+    .banner_main .banner_right .banner-details h2 {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        line-height: 28px;
+    }
+
+    
+    .banner_main .banner_right .banner-details {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+    .banner_main .banner_right .banner-details  .best_seller_tag {
+        font-size: 12px;
+        color: #fff;
+        background-color: #f29808;
+        padding: 4px 10px;
+        border-radius: 2px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: 0.5s;
+        margin-bottom: 6px;
+        display: inline-block;
+    }
+    .banner_main .banner_right .banner-details p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .banner_main .banner_right .banner-details .flite_flying_icon{
+        position: absolute;
+        transform: rotate(30deg);
+        top: -110px;
+        left: 90px;
+        
+  }
+
+    .banner_main .banner_right .banner-img {
+        width: 100%;
+        height:300px;
+        /* background-image: url(../img/mount-kailash-view.jpg); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        transform: scale(1);
+        transition: 0.5s;
+    
+    }
+
+    
+    .banner_main .banner_left .primary-button {
+        padding: 8px 20px;
+        border: 1px solid #F5F2E5;
+        background-color: #f29808;
+        border-radius: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+        transition: all .5s ease-in-out;
+    }
+    .banner_main .banner_left .bg-white {
+        --bs-bg-opacity: 1;
+        background-color:rgb(255 255 255) !important;
+    }
+    .banner_main .banner_left .bg-white h3{
+        font-size: 16px;
+
+    }
+
+    .banner_main .banner_left .bg-white .best_seller_tag_three{
+        position: absolute;
+        margin-top: 135px;
+        font-size: 12px;
+        color: #fff;
+        background-color: #1A2B48;
+        padding: 4px 10px;
+        border-radius: 2px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: 0.5s;
+        margin-bottom: 6px;
+        display: inline-block;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .banner_main .banner_left .bg-white {
+            margin-bottom: 10px;
+        }
+    }
+    
+
+    
+    .banner_main .banner_left .shadow-sm {
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    }
+
+    .banner_main .banner_left .bg-white{
+        background: linear-gradient(0deg, rgb(252, 231, 189) 0%, rgba(251,250,250,1) 50%);
+    }
+  
+
+    .banner_main .banner_left .primary-button:hover {
+        background-color: #1a2b48;
+        color:#fff;
+    }
