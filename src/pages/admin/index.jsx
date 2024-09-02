@@ -1,6 +1,7 @@
 
-import AdminHeader from "../../components/adminHeader";
+
 import AdminSideBar from "../../components/AdminSideBar";
+import AdminHeader from "../../components/AdminHeader1";
 const AdminHome =()=>{
     return(
         <>
@@ -9,11 +10,12 @@ const AdminHome =()=>{
              <div className="row p-0 ">
                 <AdminSideBar/>
                 <div className="col-md-9" >
-                    <div className="card border-0">jj</div>
+                    <div className="card border-0">Main</div>
                 </div>
             </div>
 
         </div>
+       
     </>
     )
 }

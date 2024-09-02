@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-const AdminHeader=()=>{
+const AdminHeader1=()=>{
     return(
         <>
-        <header className="admin_header">
+        <div className="admin_header">
                 <div className="row p-0 m-0">
                     <div className="col-md-3 p-0 m-0">
                         <div className="admin_togale_site">
@@ -12,10 +12,10 @@ const AdminHeader=()=>{
                     </div>
                     <div className="col-md-9"></div>
                 </div>
-            </header>
+            </div>
         
         </>
     )
 }
 
-export default AdminHeader;
+export default AdminHeader1;
