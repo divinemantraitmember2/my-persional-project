@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         {currentPath[1]=="admin"?"":<Header />}
-        
+
         <Component {...pageProps} />
         {currentPath[1]=="admin"?"": <Footer/>}
        

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import ReactPaginate from 'react-paginate';
-import { fetchData } from '../../utils/apicall';
+import { fetchData } from '../../../utils/apicall';
 
 export default function AdminEnquiry() {
   const [enquiryData, setData] = useState([]);

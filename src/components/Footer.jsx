@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import EnquiryForm from "./EnquiryFrom"
 const Footer = () => {
   return (
     <>
@@ -12,36 +13,8 @@ const Footer = () => {
                         <p className="text-white">LOGO</p>
                     </div>
                 </div>
-                <div className="col-md-12">
-                    <h5 className ="mb-2" style={{color:"white"}}>Contact Us For  More Information Of Yatra </h5>
-                    <div className="bg-white py-2">
-                        <div className='row p-0 m-0'>
-                            <div className='col-md-12'>
-                                <div className='mb-2'>
-                                    <label className='form-label'>Name</label>
-                                    <input type='text' className='form-control' placeholder='Enter Your Name'/>
-                                </div>
-                            </div>
-                            <div className='col-md-12'>
-                              <div className='mb-2'>
-                                    <label className='form-label'>Mobile</label>
-                                    <input type='text' className='form-control' value="+91" placeholder='Enter Your Mobile'/>
-                                </div>
-                            </div>
-                            <div className="col-md-12">
-                                <div className="mb-2">
-                                <label className='form-label'>Comment</label>
-                                    <textarea className="form-control"  placeholder="Comment" name="comments"></textarea>
-                            </div>
-                            </div>
-
-                            <div className="col-md-12 d-flex justify-content-center">
-                                <button className='btn btn-primary'>Submit</button>
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
+                <EnquiryForm/>
+                
                </div>
             </div>
             <div className="col-md-8 col-lg-7 p-0 offset-lg-1">

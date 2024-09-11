@@ -31,8 +31,9 @@
     background-color: #f29808;
 }
 .navbar ul li a{
-    color: #fff;
-    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
 }
  .navbar ul li a:hover{
     color: #fff;
