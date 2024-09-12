@@ -84,23 +84,23 @@ const Header = () =>  {
                                       <li className="nav-item">
                                       <Link rel="prefetch" className="nav-link" href="/">Home</Link>
                                       </li>
-                                      <li className="nav-item ">
+                                      <li className="nav-item">
                                       <Link rel="prefetch" className="nav-link" href="/kailash-mansarovar" >Kailash Mansarovar</Link>
                                        </li>
-                                      <li className="nav-item ">
-                                      <Link rel="prefetch" className="nav-link" href="/Linkdi-kailash" >Adi Kailash</Link>
+                                      <li className="nav-item">
+                                      <Link rel="prefetch" className="nav-link" href="/adi-kailash">Adi Kailash</Link>
                                       </li>
-                                      <li className="nav-item ">
+                                      <li className="nav-item">
                                      <Link rel="prefetch" className="nav-link" href="/uttarakhand-kailash" >Uttarakhand Kailash</Link><button className="collapsed accordion-button m-menu-arrow"></button>
                                        </li>
-                                    <li className="nav-item ">
+                                    <li className="nav-item">
                                    <Link rel="prefetch" className="nav-link" href="/char-dham"  aria-disabled="true">Char Dham</Link>
                                   </li>
                                   <li className="nav-item ">
-                                   <Link rel="prefetch" className="nav-link" href="/char-dham"  aria-disabled="true">News</Link>
+                                   <Link rel="prefetch" className="nav-link" href="/news"  aria-disabled="true">News</Link>
                                   </li>
                                   <li className="nav-item ">
-                                   <Link rel="prefetch" className="nav-link" href="/char-dham"  aria-disabled="true">Blog</Link>
+                                   <Link rel="prefetch" className="nav-link" href="/Blogs"  aria-disabled="true">Blogs</Link>
                                   </li>
                                                                  
               </ul>
